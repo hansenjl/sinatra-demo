@@ -9,6 +9,7 @@ gem 'thin'
 gem 'bcrypt'
 gem 'foreman'
 gem 'dotenv'
+gem 'pg'
 
 
 group :test do
@@ -25,6 +26,4 @@ group :development do
   gem 'sqlite3', '~> 1.3.6'
 end
 
-group :production do
-  gem 'pg'
-end
+
