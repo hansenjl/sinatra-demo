@@ -98,3 +98,7 @@ When I updated my ruby version I also installed bundler v2. Heroku wants an olde
 gem install bundler -v 1.15.2
 bundle _1.15.2_ install
 ```
+
+### Resources
+- [Heroku Hosting Example Video](https://www.youtube.com/watch?v=wzUumUGNEPQ&feature=youtu.be)
+- [Additional Guidelines](https://github.com/DakotaLMartinez/sinatra-heroku-demo/blob/master/README.md)
