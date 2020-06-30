@@ -9,7 +9,11 @@ gem 'thin'
 gem 'bcrypt'
 gem 'foreman'
 gem 'dotenv'
-gem 'pg'
+
+group :production do
+  gem 'pg', '~> 0.20'
+end
+
 
 
 group :test do
